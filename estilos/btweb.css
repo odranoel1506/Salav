@@ -1,0 +1,31 @@
+#WEnv{
+    position: absolute;
+    font-size: 36px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(59, 59, 59, 0.692);
+    color: white;
+    top:200px;
+    left: 615px;
+}
+#btindex{
+    position: fixed;
+    top:470px;
+    left: 260px;
+    
+}
+#estado{
+    position: absolute;
+    top:350px;
+    margin-left: 628px;
+    color: white;
+}
+
+
+
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}

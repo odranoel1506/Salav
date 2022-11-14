@@ -1,0 +1,6 @@
+SELECT DISTINCT ProductosSalav.Marca, ProductosSalav.Modelo,ProductosSalav.Anio_inicio, ProductosSalav.Anio_fin,ProductosSalav.motor,ProductosSalav.Cil,ProductosSalav.Part_type,catalogo_producto.id,catalogo_producto.url_ficha, catalogo_producto.imagen,catalogo_producto.pdf, catalogo_producto.Precio,catalogo_producto.Producto_LstPrec,
+        catalogo_producto.part_number, catalogo_producto.descripcion, catalogo_producto.clasificacionabc,catalogo_producto.tipo,proveedor.id, proveedor.nombre,inventario.id, inventario.cantidad, inventario.sucursal_id,sucursal.sucursal, sucursal.ubicacion FROM ProductosSalav INNER JOIN catalogo_producto ON catalogo_producto.id= ProductosSalav.Id_catprod
+        LEFT JOIN proveedor ON proveedor.id= catalogo_producto.proveedor_id
+        LEFT JOIN inventario ON inventario.producto_id= catalogo_producto.id
+        LEFT JOIN sucursal ON sucursal.id= inventario.sucursal_id
+        WHERE sucursal.id=34

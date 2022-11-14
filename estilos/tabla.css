@@ -1,0 +1,35 @@
+.contratar-a{
+	background: #545554bb;
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px 50px; 
+	letter-spacing: 1px;
+	width: 90%;
+	border-radius: 20px;
+}
+.contratar-a:hover{
+	background: rgba(204, 45, 45, 0.733);
+}
+.destacado{
+	background-color: #FFF;
+	box-shadow: 0 0 8px rgba(0,0,0,0.9);
+	z-index: 500;
+}
+.destacado h4{
+	color:#30353c;
+	font-size: 30px;
+}
+.destacado .icono-precio{
+	font-size: 4em;
+}
+.destacado .contratar-a{
+	background:#30353c;
+}
+.destacado .contratar-a:hover{
+	background:#777;
+}
+.fa-star{
+	color:#30353c;
+}
